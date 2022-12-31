@@ -1,22 +1,40 @@
 body{
     font-family:'Raleway', sans-serif;
-    padding-top:25px;
-    margin-left:15px;
-    margin-right:15px;
-    }
+    padding-top: Opx;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
 
-nav {
+.logo{
+    width: 5%;
+}
+.nav {
+    height: 74px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    }
+}
+
+#hebergements {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: center;
+}
 
 #hebergements-activites {
     display: flex;
-    justify-content: space-between; 
-    align-items : end;
-    }
+    width: 30%;
+}
+
+#activites {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 
 .link_1:hover{
     border-top: #0080ff 2px solid;
@@ -25,10 +43,12 @@ nav {
 .link_1 {
     color: #000000;
     text-decoration: none;
+    
 }
 
 .link_2 {
     text-decoration: none;
+    
 }
 
 H1 {
@@ -41,7 +61,10 @@ p {
 }
 
 .research_input {
-    border: none
+    border: none;
+    height: 43px;
+    width: 120px;
+    font-weight: bold;
 }
 
 .button {
@@ -50,9 +73,20 @@ p {
     border-top-right-radius: 9px;
     border-bottom-right-radius: 9px;
     border: none;
-    width: 10%;
-    height: 70%
-    }
+    width: 100px;
+    height: 33px;
+}
+
+#research_glass {
+    display: none;
+}
+
+#location {
+    width: 9px;
+    height: 10px;
+    border-radius: 7px 0 0 7px;
+    background-color: #d3d3d3;
+}
 
 
 
