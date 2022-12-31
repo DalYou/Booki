@@ -1,0 +1,67 @@
+body{
+    font-family:'Raleway', sans-serif;
+    padding-top:25px;
+    margin-left:15px;
+    margin-right:15px;
+    }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+#hebergements-activites {
+    display: flex;
+    justify-content: space-between; 
+    align-items : end;
+    }
+
+.link_1:hover{
+    border-top: #0080ff 2px solid;
+   }
+
+.link_1 {
+    color: #000000;
+    text-decoration: none;
+}
+
+.link_2 {
+    text-decoration: none;
+}
+
+H1 {
+    font-size: 15px;
+    font-weight: heavy;
+}
+
+p {
+    font-size: 10px;
+}
+
+.research_input {
+    border: none
+}
+
+.button {
+    background-color: #0065FC;
+    color: #ffffff;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border: none;
+    width: 10%;
+    height: 70%
+    }
+
+
+
+
+
+
+
+
+
+
+
+
