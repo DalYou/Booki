@@ -7,7 +7,8 @@ body{
 }
 
 .logo{
-    width: 5%;
+    height: 50px;
+    width: 50px;
 }
 .nav {
     height: 74px;
@@ -130,7 +131,7 @@ p {
 }
 
 .container div:hover {
-   background-color: #0065fc;
+   background-color: #0093fcc5;
 }
 
 .infos p {
@@ -142,3 +143,43 @@ a {
     top: 5px;
 }
 
+.card_1 {
+    height: 200px;
+    width: 175px;
+    background-color :white;
+    box-shadow: 0 4px 8px 0;
+    border-radius: 11px 11px 11px 11px;
+    margin: 0px;
+    padding: 10px;
+}
+
+article {
+    display: block;
+}
+
+#marseille {
+    border-radius: 8px 8px 8px 8px;
+    background-color: #e6e6e5;
+    margin-top: 30px;
+    padding: 30px;
+    padding-left: 20px;
+}
+
+.h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+}
+
+img {
+    border-radius: 8px 8px  8px 8px;
+    width: 183px;
+    height: 120px;
+    padding: 0px;
+    margin: -4px;
+    object-fit: cover;
+}
+a{
+    position: relative;
+    top: 1px;
+}
