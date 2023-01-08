@@ -42,31 +42,49 @@ body{
 /***Header***/
 
 .logo {
+    display: inline-block;
     height: 19px;
-    width: 61px;
+    width: 100px;
     margin-left: 35px;
     margin-top: 44px;
 }
 
-nav {
+.container_header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+    width: 900px;
+}
+
+nav {
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul {
     list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    align-items: center;
 }
 
 
 .link_1 {
-    font-size: medium;
+    font-size: 14px;
 }
 
-.link_1 :hover{
+.link_1:hover{
     border-top: 2px solid #0065FC ;
-    padding-top: 43px;
+    padding-top: 23px;
 }
 
 .link_2 {
     color: #000000;
-    font-size: medium;
+    font-size: 14px;
 }
 
 a {
@@ -283,13 +301,11 @@ article img {
 }
 
 .fa-chart-line {
-    margin-left: 30px;
     color: #0065FC;
+    padding-left: 30px;
 }
 
-.title_img_card2{
-    display: flex;
-}
+
 .populaires {
     background-color: #F2F2F2;
     width: 20%;
@@ -314,17 +330,30 @@ aside img {
     border-bottom-left-radius: 18px;
     width: 40%;
     height: 154px;
-    display: inline-block;
     object-fit: cover;
-    display: flex;
 }
 
 .info_card2{
-    display: inline-block;
-    vertical-align: top;
     color: black;
     font-weight: bold;
-    margin-left: 7px;
     font-size: 13px;
 }
 
+.info_card2 h3{
+    margin-top: -132px;
+    padding-top: 7px;
+    margin-left: 78px;
+    padding-left: 10px;
+    font-size: small;
+}
+
+.info_card2 p {
+    margin-left: 78px;
+    padding-left: 10px;
+}
+
+.star_populaires p{
+    margin-left: 78px;
+    padding-left: 10px;
+    padding-top: 40px;
+}
