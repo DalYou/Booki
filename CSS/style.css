@@ -475,41 +475,57 @@ footer li {
     
 }
 
-/***Responsive_tablettes***/
+/***Responsive_tablette***/
 
 @media screen and (max-width: 992px) {
     body {
         padding-left: 2,5%;
         padding-right: 2,5%;
-        margin: 70px;
-    }
-
-    .container_section_aside .section_aside{
-        flex-direction: column;
-    }
-
-    .container_section_aside {
-        flex-direction: column;
+        margin: 40px;
+        padding: 0;
     }
 
     .section_hebergements {
-        width: 100%;
+        width: 121%;
     }
 
-   .populaires {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+   
+    .populaires {
+        width: 121%;
+        height: 278px;
+   }
+
+   .populaires .card2 {
+        display: flex;
+        align-items: center;
    }
 
    .card2 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 252px;
+        height: 144px; 
    }
 
+   .title_populaires {
+        align-items: flex-start;
+    
+   }
+
+   .img_h3 {
+        width: 182px;
+        height: 267px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+   }
+
+   footer {
+        width: 907px;
+        height: 225px;
+        margin-top: 135px;
+   }
+   
+
+   
 }
-
-
-
