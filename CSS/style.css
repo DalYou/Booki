@@ -206,7 +206,7 @@ form {
 }
 
 .title_sectionh2{
-    margin-left: 10px;
+    margin-left: 16px;
 }
 .section_hebergements {
     flex: 2;
@@ -223,7 +223,7 @@ form {
     box-shadow: 0 4px 8px 0;
     transition: 0.3s;
     border-radius: 15px 15px 15px 15px;
-    margin: 10px;
+    margin: 16px auto;
     padding: 10px;
 }
 
@@ -290,7 +290,8 @@ article a {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding: 11px;
+    padding: 23px 23px 0px 23px;
+    margin: 22px;
 }
 
 .fa-chart-line {
@@ -304,7 +305,7 @@ article a {
 }
 
 .container_card2 {
-    padding : 10px 85px 30px 85px;
+    padding : 0px 40px 30px 40px;
 }
 
 .populaires {
@@ -313,11 +314,12 @@ article a {
 
 .card2 {
     height: 143px;
+    width: 282px;
     background-color : white;
     box-shadow: 0 7px 7px 0 black;
     transition: 0.3s;
     border-radius: 20px;
-    margin: 15px auto;
+    margin: 0px 15px 15px 15px;
     padding: 3px;
 }
 
@@ -461,32 +463,41 @@ footer li {
         margin: 40px;
         padding: 0;
     }
-
-    .section_hebergements {
-        width: 121%;
+    .container_section_aside{
+        display: block;
     }
-
-   
-    .populaires {
-        width: 121%;
-        height: 278px;
-   }
-
+    
    .populaires .card2 {
         display: flex;
         align-items: center;
-   }
+    }
+    
+   .section_hebergements .container_card{
+        margin-left: 38px;
+    }
 
-   .card2 {
+    .section_hebergements h2 {
+        margin-left: 38px;
+    }
+
+    .container_section {
+        margin-right: 0px;
+    }
+
+    .card {
+        margin: 30px;
+    }
+
+    .container_populaires {
+        margin: 10px;
+    }
+
+    .container_card2 {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 252px;
-        height: 144px; 
-   }
+    }
 
    .title_populaires {
-        align-items: flex-start;
+        margin: 10px 48px 12px 35px;
     
    }
 
