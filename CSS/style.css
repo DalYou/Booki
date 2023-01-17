@@ -193,14 +193,21 @@ form {
 
 /***Cards hébergements à Marseille***/
 
-.container_section_aside section aside {
-    display: flex;
-}
-
 .container_section_aside {
     display: flex;
 }
+.container_section {
+    display: flex;
+    background-color: var(--grey);
+    border-radius: 20px;
+    padding: 16px;
+    margin: 36px;
+    margin-left: 0px;
+}
 
+.title_sectionh2{
+    margin-left: 10px;
+}
 .section_hebergements {
     flex: 2;
 }
@@ -212,8 +219,6 @@ form {
 
 .card {
     display: flex;
-    height: 183px;
-    width: 206px;
     background-color : white;
     box-shadow: 0 4px 8px 0;
     transition: 0.3s;
@@ -223,7 +228,7 @@ form {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .section1_part1 h2 {
@@ -283,19 +288,23 @@ article a {
 .title_populaires {
     display: flex;
     align-items: center;
-    margin-left: 10px;
-    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11px;
 }
 
 .fa-chart-line {
     color: #0065FC;
-    margin-left: 50px;
-    padding-left: 70px;
 }
 
-.populaires h2 {
-    margin-left: 16px;
-    margin-top: 14px;
+.container_populaires {
+    background-color: var(--grey);
+    border-radius: 20px;
+    margin: 38px;
+}
+
+.container_card2 {
+    padding : 10px 85px 30px 85px;
 }
 
 .populaires {
@@ -304,7 +313,6 @@ article a {
 
 .card2 {
     height: 143px;
-    width: 85%;
     background-color : white;
     box-shadow: 0 7px 7px 0 black;
     transition: 0.3s;
