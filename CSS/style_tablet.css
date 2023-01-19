@@ -1,0 +1,63 @@
+/***Responsive_tablette***/
+
+@media screen and (max-width: 992px) {
+    body {
+        padding-left: 2,5%;
+        padding-right: 2,5%;
+        margin: 40px;
+        padding: 0;
+    }
+    .container_section_aside{
+        display: block;
+    }
+    
+   .populaires .card2 {
+        display: flex;
+        align-items: center;
+    }
+    
+   .section_hebergements .container_card{
+        margin-left: 38px;
+    }
+
+    .section_hebergements h2 {
+        margin-left: 38px;
+    }
+
+    .container_section {
+        margin-right: 0px;
+    }
+
+    .card {
+        margin: 30px;
+    }
+
+    .container_populaires {
+        margin: 10px;
+    }
+
+    .container_card2 {
+        display: flex;
+    }
+
+   .title_populaires {
+        margin: 10px 48px 12px 35px;
+    
+   }
+
+   .img_h3 {
+        width: 182px;
+        height: 267px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+   }
+
+   footer {
+        width: 907px;
+        height: 225px;
+        margin-top: 135px;
+   }
+   
+
+   
+}
