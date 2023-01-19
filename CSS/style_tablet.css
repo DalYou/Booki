@@ -2,57 +2,87 @@
 
 @media screen and (max-width: 992px) {
     body {
-        padding-left: 2,5%;
-        padding-right: 2,5%;
-        margin: 40px;
+        margin: 40px 70px 0px 70px;
         padding: 0;
     }
     .container_section_aside{
         display: block;
     }
-    
-   .populaires .card2 {
-        display: flex;
-        align-items: center;
-    }
-    
-   .section_hebergements .container_card{
-        margin-left: 38px;
+
+    .section_hebergements {
+        margin : 0px;
+        padding : 0px; 
     }
 
+    .container_hebergements {
+        margin-top: 35px;
+    }
+         
     .section_hebergements h2 {
-        margin-left: 38px;
+        margin: 0px 0px 0px 20px;
+        padding: 35px 10px 0px 0px;
     }
 
+    .container_card {
+        justify-content: space-between;
+    }
+   
     .container_section {
         margin-right: 0px;
     }
 
-    .card {
-        margin: 30px;
+    .afficher {
+        margin: 0px 0px 47px 27px;
+        padding: 20px 0px 46px 10px;
+    }
+    
+
+    .star_populaires p {
+        margin-left: 90px;
+        padding-top: 40px;
+    } 
+
+    .info_card2 h3 {
+        padding-top: 0px;
     }
 
     .container_populaires {
-        margin: 10px;
+        margin: 0px;
     }
-
     .container_card2 {
         display: flex;
     }
 
+    .card2 {
+
+    }
+
+    aside img {
+        width: 90px;
+    }
+
+    .info_card2 h3 {
+        margin-left: 90px;
+        margin-top: -136px;
+    }
+
+    .info_card2 p {
+        margin-left: 90px;
+    }
+
    .title_populaires {
         margin: 10px 48px 12px 35px;
-    
    }
 
-   .img_h3 {
-        width: 182px;
-        height: 267px;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
+   .activites_a_marseille {
+        margin: 55px 0px 0px 0px;
    }
+   
+    .colonnes {
 
-   footer {
+    }
+
+    footer {
         width: 907px;
         height: 225px;
         margin-top: 135px;
