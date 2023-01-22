@@ -5,6 +5,9 @@
         margin: 40px 70px 0px 70px;
         padding: 0;
     }
+
+    /**Hébergements**/
+
     .container_section_aside{
         display: block;
     }
@@ -34,6 +37,8 @@
         margin: 0px 0px 47px 27px;
         padding: 20px 0px 46px 20px;
     }
+
+    /**Populaires**/
     
     .star_populaires p {
         margin-left: 90px;
@@ -77,6 +82,8 @@
         margin: 10px 48px 12px 35px;
    }
 
+    /**Activités à Marseille**/
+    
    .activites_a_marseille {
         margin: 74px 0px 55px 0px;
    }

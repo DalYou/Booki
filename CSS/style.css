@@ -437,8 +437,6 @@ footer ul {
 .footer_colums ul {
     color: black;
     padding: 0;
-    font-size: 13px;
-    font-weight: 600;
 }
 
 footer h2 {
@@ -451,7 +449,7 @@ footer a {
 
 footer li {
     color: black;
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
