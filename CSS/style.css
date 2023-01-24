@@ -158,7 +158,11 @@ form {
     margin-right: 14px;
 }
 
-.container div {
+.container .filtres {
+    display: flex;
+}
+
+.container .filtres1 {
     display: flex;
     font-size: 15px;
     align-items: center;
@@ -172,7 +176,7 @@ form {
     font-weight: bold;
 }
 
-.container div:hover {
+.container .filtres1:hover {
    background-color: var(--light_blue);
 }
 
@@ -248,7 +252,7 @@ article a {
     padding-top: 3px;
     margin-bottom: -9px;
     padding-bottom: 1px;
-    font-size: 14;
+    font-size: 14px;
 }
 
 .card img {
