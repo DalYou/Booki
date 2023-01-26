@@ -43,10 +43,15 @@
 
     h1 {
         font-size: 18px;
+        margin-bottom: 13px;
     }
 
     h2 {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    header p {
+        margin-bottom: 18px;
     }
     
     .header_infos {
@@ -66,8 +71,8 @@
     .fa-magnifying-glass {
         background-color: var(--blue);
         color: white;
-        width: 39px;
-        height: 36px;
+        width: 42px;
+        height: 41px;
         font-weight: bold;
         border: none;
         border-radius: 0px 18px 18px 0px;
@@ -75,6 +80,14 @@
         align-items: center;
         justify-content: center;
     }  
+
+    #location {
+        height: 43px;
+    }
+
+    .research_input {
+        padding: 10.7px 10px;
+    }
     
     /**Header Filtres**/
 
@@ -88,12 +101,24 @@
         font-size: 11px;
         margin: 4px;
     }
+
+    /**Infos**/
+
+    
+    .fa-solid.fa-info {
+        padding: 1px 7px;
+        font-weight: 600;
+    }
        
     /**Populaires et hébergements**/
     
     .container_section_aside {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .populaires {
+        margin-top: 18px;
     }
 
     .container_populaires {
@@ -107,6 +132,7 @@
     .container_card2 {
         flex-direction: column;
         padding: 0;
+        margin-bottom: 20px;
     }
 
     .title_populaires {
@@ -134,7 +160,7 @@
     }
     
     .container_hebergements {
-        margin-bottom: 20px;
+        margin: 15px 0px 52px 0px;
     }
 
     .container_card {
