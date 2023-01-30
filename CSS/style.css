@@ -172,7 +172,7 @@ form {
     margin: 15px;
     transition-duration: 0.1s;
     cursor: pointer;
-    padding: 10px;
+    padding: 13px;
     font-weight: bold;
 }
 
@@ -215,7 +215,7 @@ form {
     background-color: var(--grey);
     border-radius: 20px;
     padding: 16px;
-    margin: 20px 36px 36px 0px;
+    margin: 20px 8px 36px 0px;
 }
 
 .container_card {
@@ -422,14 +422,11 @@ footer {
 
 .footer_container {
     display: flex;
-    max-width: 100%;
-    margin: auto;
     padding: 0 25px;
-    box-sizing: border-box;
 }
 
 .footer_colums {
-    padding: 21px 26px;
+    padding: 38px 26px 52px 26px;
     flex: auto;
     color: black;
 }

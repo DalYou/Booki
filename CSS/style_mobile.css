@@ -186,6 +186,10 @@
         display: none;
     }
 
+    .star_populaires .p3 {
+        margin-left: 91px;
+    }
+
     /**Activités à Marseille**/
 
     .activites_a_marseille {
