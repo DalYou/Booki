@@ -19,6 +19,7 @@
     -webkit-box-sizing: border-box;
     /* Safari/Chrome, others WebKit */
 }
+
 /***root***/
 
 :root {                       
@@ -318,6 +319,11 @@ article a {
     flex: 1;
 }
 
+.card2 a {
+    display: flex;
+    flex-direction: row;
+}
+
 .card2 {
     height: 143px;
     width: 282px;
@@ -336,39 +342,29 @@ aside img {
     object-fit: cover;
 }
 
-.info_card2{
+.info_card2 {
     color: black;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 11px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
-.info_card2 h3{
-    margin-top: -132px;
-    padding-top: 7px;
-    margin-left: 110px;
-    padding-left: 10px;
+.info_card2 .p {
+    display: flex;
+    margin-top: auto;
+    font-size: 10px;
+}
+
+.info_card2 h3 {
     font-size: 14px;
+    margin-bottom: 7px;
 }
 
 .info_card2 p {
-    margin-left: 110px;
-    padding-left: 10px;
     font-weight: 100;
-    font-size: 10px;
-}
-
-.star_populaires p{
-    margin-left: 110px;
-    padding-left: 10px;
-    padding-top: 30px;
-    font-size: 10px;
-}
-
-.star_populaires .p3 {
-    margin-left: 110px;
-    padding-left: 10px;
-    padding-top: 49px;
-    font-size: 10px;
+    margin-top: 0px;
 }
 
 /***Activités à Marseille**/

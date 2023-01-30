@@ -1,115 +1,87 @@
+
 /***Responsive_tablette***/
 
-@media screen and (max-width: 992px) {
-    body {
-        margin: 40px 70px 0px 70px;
-        padding: 0;
-    }
+body {
+    margin: 40px 70px 0px 70px;
+    padding: 0;
+}
 
-    /**Hébergements**/
+/**Hébergements**/
 
-    .container_section_aside{
-        display: block;
-    }
+.container_section_aside{
+    display: block;
+}
 
-    .section_hebergements {
-        margin: 48px 0px 49px 0px;
-        padding: 0px 0px 0px 0px;
-    }
+.section_hebergements {
+    margin: 48px 0px 49px 0px;
+    padding: 0px 0px 0px 0px;
+}
 
-    .container_hebergements {
-        margin-top: 20px;
-    }
-         
-    .section_hebergements h2 {
-        padding: 30px 0px 0px 29px;
-    }
-
-    .container_card {
-        margin: 13px;
-    }
-   
-    .container_section {
-        margin-right: 0px;
-    }
-
-    .afficher {
-        margin: 0px 0px 47px 27px;
-        padding: 20px 0px 46px 20px;
-    }
-
-    /**Populaires**/
+.container_hebergements {
+    margin-top: 20px;
+}
     
-    .star_populaires p {
-        margin-left: 90px;
-        padding-top: 40px;
-    }
+.section_hebergements h2 {
+    padding: 30px 0px 0px 29px;
+}
 
-    .star_populaires .p2{
-        padding-top: 24px;
-    }
+.container_card {
+    margin: 13px;
+}
 
-    .star_populaires .p3{
-        padding-left: 10px;
-        padding-top: 43px;
-    }
+.container_section {
+    margin-right: 0px;
+}
 
-    .info_card2 h3 {
-        padding-top: 0px;
-    }
+.afficher {
+    margin: 0px 0px 47px 27px;
+    padding: 20px 0px 46px 20px;
+}
 
-    .container_populaires {
-        margin: 0px;
-    }
-    .container_card2 {
-        display: flex;
-    }
+/**Populaires**/
 
-    aside img {
-        width: 90px;
-    }
+.container_populaires {
+    margin: 0px;
+}
+.container_card2 {
+    display: flex;
+}
 
-    .info_card2 h3 {
-        margin-left: 90px;
-        margin-top: -136px;
-    }
+aside img {
+    width: 90px;
+}
 
-    .info_card2 p {
-        margin-left: 90px;
-    }
-
-   .title_populaires {
+.title_populaires {
         margin: 10px 48px 12px 35px;
-   }
+}
 
-    /**Activités à Marseille**/
+/**Activités à Marseille**/
     
-   .activites_a_marseille {
+.activites_a_marseille {
         margin: 74px 0px 55px 0px;
-   }
+}
 
-   .images {
+.images {
     display: flex;
     font-size: small;
     justify-content: space-between;
     margin-top: 32px;
-   }
+}
 
-   .img_h3 {
+.img_h3 {
     height: 321px;
     width: 184px;
-   }
+}
 
-   .images .img_h3 img {
+.images .img_h3 img {
     width: 184px;
     height: 258px;
-   }
+}
 
-   .colonnes .h3_3 {
+.colonnes .h3_3 {
     margin: 10px;
-   }
+}
 
-   .colonnes .h3_4 {
+.colonnes .h3_4 {
     margin: 10px;
-   }
 }
