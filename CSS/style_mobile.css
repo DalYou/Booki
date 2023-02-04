@@ -14,7 +14,6 @@ body {
 }
 
 .logo {
-    display: block;
     margin: 10px auto;
 }
 
@@ -61,7 +60,7 @@ header p {
 }
 
 .header_infos {
-    padding: 10px;
+    padding: 10px 61px;
 }
 
 /**Header Recherche**/
@@ -108,8 +107,11 @@ form {
     margin: 4px;
 }
 
-/**Infos**/
+.container {
+    font-size: 8px; 
+}
 
+/**Infos**/
 
 .fa-solid.fa-info {
     padding: 1px 7px;
@@ -124,7 +126,7 @@ form {
 }
 
 .populaires {
-margin-top: 18px;
+    margin-top: 18px;
 }
 
 .container_populaires {
@@ -133,6 +135,7 @@ margin-top: 18px;
     flex-wrap: nowrap;
     flex-direction: column;
     border-radius: 0px;
+    width: 81%;
 }
 
 .container_card2 {
@@ -227,9 +230,13 @@ margin-top: 18px;
 .footer_container {
     flex-wrap: nowrap;
     flex-direction: column;
-
 }
 
 .footer_colums {
     padding: 0px;
+}
+
+footer {
+    width: 75%;
+    margin: auto;
 }
