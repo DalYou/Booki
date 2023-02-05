@@ -135,7 +135,6 @@ form {
     flex-wrap: nowrap;
     flex-direction: column;
     border-radius: 0px;
-    width: 81%;
 }
 
 .container_card2 {
@@ -144,46 +143,37 @@ form {
     margin-bottom: 20px;
 }
 
-.title_populaires {
-    margin: auto;
-}
-
-.title_populaires h2 {
-    margin-right: 118px;
+.title_sectionh2 {
+    margin: 18px;
 }
 
 .card2 {
-    margin: 15px auto;
-    width: 279px;
+    margin: 15px;
+    width: auto;
 }
 
 .section_hebergements {
-    display: flex;
     background-color: white;
     border-radius: 20px;
-    margin: auto;
 }
 
 .section_hebergements h2{
     padding: 0px;
 }
 
-.container_hebergements {
-    margin: 15px 0px 52px 0px;
-}
-
 .container_card {
     flex-wrap: nowrap;
     flex-direction: column;
+    margin: 0;
 }
 
 .card {
-    width: 282px;
-    height: 180px;
+    width: auto;
+    margin: 18px;
 }
 
 .card img {
-    width: 274px;
+    width: 100%;
 }
 
 .afficher {
@@ -206,7 +196,6 @@ form {
 .images {
     flex-direction: column;
     flex-wrap: nowrap;  
-    margin: auto;
     margin-bottom: 32px;
 }
 
@@ -216,12 +205,12 @@ form {
 
 .img_h3 {
     height: 210px;
-    width: 279px;
+    width: auto;
     margin: 15px;
 }
 
 .images .img_h3 img {
-    width: 279px;
+    width: 100%;
     height: 157px; 
 }
 
@@ -237,6 +226,6 @@ form {
 }
 
 footer {
-    width: 75%;
+    width: 100%;
     margin: auto;
 }
